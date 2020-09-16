@@ -17,6 +17,7 @@
 		101216A02511DB92001490DE /* MVVMDesignPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1012169F2511DB92001490DE /* MVVMDesignPatternUITests.swift */; };
 		10264D052512005200282397 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10264D042512005200282397 /* Model.swift */; };
 		10264D072512006800282397 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10264D062512006800282397 /* ViewModel.swift */; };
+		10264D092512085100282397 /* NetworkingManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10264D082512085100282397 /* NetworkingManger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		101216A12511DB92001490DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10264D042512005200282397 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		10264D062512006800282397 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		10264D082512085100282397 /* NetworkingManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				101216812511DB91001490DE /* ViewController.swift */,
 				10264D042512005200282397 /* Model.swift */,
 				10264D062512006800282397 /* ViewModel.swift */,
+				10264D082512085100282397 /* NetworkingManger.swift */,
 				101216832511DB91001490DE /* Main.storyboard */,
 				101216862511DB92001490DE /* Assets.xcassets */,
 				101216882511DB92001490DE /* LaunchScreen.storyboard */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10264D072512006800282397 /* ViewModel.swift in Sources */,
+				10264D092512085100282397 /* NetworkingManger.swift in Sources */,
 				101216822511DB91001490DE /* ViewController.swift in Sources */,
 				1012167E2511DB91001490DE /* AppDelegate.swift in Sources */,
 				101216802511DB91001490DE /* SceneDelegate.swift in Sources */,
